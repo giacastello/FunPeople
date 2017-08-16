@@ -15,6 +15,10 @@
   font-family: "PT Sans Narrow";
 }
 
+.aligncenter {
+  text-align: center;
+}
+
 h1 {
-  font-size: 325px;
+  font-size: 150px;
 }
