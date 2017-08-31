@@ -21,6 +21,11 @@
   background-color: #rgb(217, 90, 28)
 }
 
+.backgroundkumkum {
+  background-color: rgb(203,72,38);
+  font-family: "PT Sans Narrow"
+}
+
 .aligncenter {
   text-align: center;
 }
