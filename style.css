@@ -1,3 +1,48 @@
+/*header*/
+
+header{
+  padding: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+}
+
+nav{
+  background:cyan;
+  position:relative;
+}
+
+nav .submenu{
+  position: absolute;
+  display: none;
+  background-color: magenta;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+nav .ancla:hover .submenu{
+  display:block;
+}
+
+nav .submenu li{
+  display: block;
+  color: black;
+}
+
+.submenu:hover {
+  background-color: pink;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 20px;
+}
+
+
+ul{
+  text-align: center;
+}
+
+
 .portadas {
   text-align: center;
 }
