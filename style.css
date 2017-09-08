@@ -1,46 +1,66 @@
 /*header*/
 
-header{
-  padding: 20px;
-  font-family: 'Dosis', sans-serif;
-  font-size: 20px;
+header {
+  display:flex;
+  flex-direction: row;
+  padding:20px;
+  background-image: url(https://media.giphy.com/media/XbShHmOTyEwsU/giphy.gif);
+  width:100%
+  justify-content:space-between;
+  align-items: center;
+
 }
 
-nav{
-  background:cyan;
-  position:relative;
+.logo{
+  float: left;
 }
 
-nav .submenu{
-  position: absolute;
-  display: none;
-  background-color: magenta;
-  font-size: 16px;
-  margin: 0 auto;
+.menu a {
+  text-decoration: none;
 }
 
-nav .ancla:hover .submenu{
-  display:block;
+.menu li:hover, a:hover {
+  color: magenta;
 }
-
-nav .submenu li{
-  display: block;
-  color: black;
-}
-
-.submenu:hover {
-  background-color: pink;
-}
-
 nav ul li{
   display: inline-block;
   margin: 20px;
+  font-size: 30px;
 }
-
 
 ul{
   text-align: center;
 }
+
+nav .menu{
+  position:relative;
+  padding: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+nav .discos{
+  position: absolute;
+  display: none;
+  background-color: cyan;
+  font-size: 20px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+nav .discos li{
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+nav .ancla:hover .discos{
+  display:block;
+}
+
+.submenu1, .submenu2{
+  float:left;
+}
+
+
+/*header*/
 
 
 .portadas {
